@@ -22,6 +22,10 @@ body{
   float: left;
 }
 
+main{
+  padding: 25px 0;
+}
+
 .img{
   position: relative;
   background-position: center;
@@ -36,6 +40,15 @@ body{
 }
 .terza{
   background-image: url("./img/3b.webp");
+}
+.quarta{
+  background-image: url("./img/4b.webp");
+}
+.quinta{
+  background-image: url("./img/5b.webp");
+}
+.sesta{
+  background-image: url("./img/6b.webp");
 }
 
 
