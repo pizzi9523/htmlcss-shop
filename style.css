@@ -34,6 +34,9 @@ body{
 .seconda{
   background-image: url("./img/2b.webp");
 }
+.terza{
+  background-image: url("./img/3b.webp");
+}
 
 
 /* Problema si sposta tutto 
@@ -66,6 +69,7 @@ body{
 .sconto{
   background-color: #EB0037;
 }
+
 .sostenibilita{
   background-color: #00875A;
 }
@@ -75,6 +79,7 @@ body{
   right: 0;
   top: 1.5rem;
 }
+
 .cuoricino{
   font-size: 2rem;
   background-color: white;
@@ -84,14 +89,16 @@ body{
 .descrizione{
   margin-top: 15px;
 }
+
 .descrizione h1{
-  text-transform: uppercase ;
   font-size: 25px;
 }
+
 .descrizione .final_price{
   color: red;
   font-weight: bold;
 }
+
 .descrizione .old_price{
   text-decoration: line-through;
 }
