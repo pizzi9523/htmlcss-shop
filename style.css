@@ -3,3 +3,56 @@
   padding: 0;
   margin: 0;
 }
+
+body{
+  width: 80%;
+  margin: auto;
+}
+
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.contenitore{
+  width: 33.33%;
+}
+
+.img{
+  position: relative;
+}
+
+.img img{
+  width: 100%;
+}
+
+.info_articolo{
+  position: absolute;
+  bottom: 2rem;
+  left: 0;
+}
+
+.sconto , .sostenibilita{
+  padding: 5px;
+  display: inline-block;
+  color: white;
+}
+
+.sconto{
+  background-color: #EB0037;
+}
+.sostenibilita{
+  background-color: #00875A;
+}
+
+.preferiti{
+  position: absolute;
+  right: 0;
+  top: 1.5rem;
+}
+.cuoricino{
+  font-size: 2rem;
+  background-color: white;
+  padding: 10px 20px;
+}
