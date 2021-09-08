@@ -16,16 +16,23 @@ body{
   clear: both;
 }
 
-/* Schede  */
 .contenitore{
-  width: 33.33%;
+  margin: 10px 5px;
+  width: calc(33.33% - 10px);
+  float: left;
 }
 
 .img{
   position: relative;
-  background-image: url("./img/1b.webp");
   background-position: center;
   background-size: cover;
+}
+
+.prima{
+  background-image: url("./img/1b.webp");
+}
+.seconda{
+  background-image: url("./img/2b.webp");
 }
 
 
@@ -76,6 +83,10 @@ body{
 
 .descrizione{
   margin-top: 15px;
+}
+.descrizione h1{
+  text-transform: uppercase ;
+  font-size: 25px;
 }
 .descrizione .final_price{
   color: red;
