@@ -1,3 +1,4 @@
+/* Common  */
 *{
   box-sizing: border-box;
   padding: 0;
@@ -15,15 +16,31 @@ body{
   clear: both;
 }
 
+/* Schede  */
 .contenitore{
   width: 33.33%;
 }
 
 .img{
   position: relative;
+  background-image: url("./img/1b.webp");
+  background-position: center;
+  background-size: cover;
+}
+
+
+/* Problema si sposta tutto 
+.img:hover{
+  top: 10px;
+  left: 0;  
+} */
+
+.img:hover img{
+  opacity: 0;
 }
 
 .img img{
+  height: 100%;
   width: 100%;
 }
 
@@ -32,7 +49,7 @@ body{
   bottom: 2rem;
   left: 0;
 }
-
+ 
 .sconto , .sostenibilita{
   padding: 5px;
   display: inline-block;
@@ -55,4 +72,15 @@ body{
   font-size: 2rem;
   background-color: white;
   padding: 10px 20px;
+}
+
+.descrizione{
+  margin-top: 15px;
+}
+.descrizione .final_price{
+  color: red;
+  font-weight: bold;
+}
+.descrizione .old_price{
+  text-decoration: line-through;
 }
