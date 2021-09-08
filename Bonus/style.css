@@ -1,0 +1,130 @@
+/* Common  */
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  width: 80%;
+  margin: auto;
+}
+
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.contenitore{
+  margin: 10px 5px;
+  width: calc(33.33% - 10px);
+  float: left;
+}
+
+main{
+  padding: 25px 0;
+}
+
+.img{
+  position: relative;
+  background-position: center;
+  background-size: cover;
+}
+
+.prima{
+  background-image: url("./img/1b.webp");
+}
+.seconda{
+  background-image: url("./img/2b.webp");
+}
+.terza{
+  background-image: url("./img/3b.webp");
+}
+.quarta{
+  background-image: url("./img/4b.webp");
+}
+.quinta{
+  background-image: url("./img/5b.webp");
+}
+.sesta{
+  background-image: url("./img/6b.webp");
+}
+
+
+/* Problema si sposta tutto 
+.img:hover{
+  top: 10px;
+  left: 0;  
+} */
+
+.img:hover img{
+  opacity: 0;
+}
+
+.img img{
+  height: 100%;
+  width: 100%;
+}
+
+
+.info_articolo{
+  position: absolute;
+  bottom: 2rem;
+  left: 0;
+}
+
+.sconto:hover, .sostenibilita:hover{
+  border-radius: 50%;
+  font-size: 50px;
+}
+ 
+.sconto , .sostenibilita{
+  padding: 5px;
+  display: inline-block;
+  color: white;
+  transition: all 2s;
+}
+
+.sconto{
+  background-color: #EB0037;
+}
+
+.sostenibilita{
+  background-color: #00875A;
+}
+
+.preferiti{
+  position: absolute;
+  right: 0;
+  top: 1.5rem;
+}
+
+.cuoricino:hover{
+  color: red;
+  cursor: pointer;
+  transform: scale(2);
+}
+.cuoricino{
+  font-size: 2rem;
+  background-color: white;
+  padding: 10px 20px;
+  transition: all 1s;
+}
+
+.descrizione{
+  margin-top: 15px;
+}
+
+.descrizione h1{
+  font-size: 25px;
+}
+
+.descrizione .final_price{
+  color: red;
+  font-weight: bold;
+}
+
+.descrizione .old_price{
+  text-decoration: line-through;
+}
